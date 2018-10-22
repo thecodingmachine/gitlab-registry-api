@@ -16,7 +16,7 @@ class Client
     
     public function __construct(string $domain, string $privateToken)
     {
-        if (strrpos($domain, '/') != strlen($domain) - 1) {
+        if (strrpos($domain, '/') !== strlen($domain) - 1) {
             $domain .= '/';
         }
         $this->domain = $domain;
