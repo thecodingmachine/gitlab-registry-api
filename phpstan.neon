@@ -1,0 +1,5 @@
+parameters:
+    ignoreErrors:
+     - '#PHPDoc tag @throws with type GuzzleHttp\\Exception\\GuzzleException is not subtype of Throwable#'
+includes:
+    - vendor/thecodingmachine/phpstan-strict-rules/phpstan-strict-rules.neon
